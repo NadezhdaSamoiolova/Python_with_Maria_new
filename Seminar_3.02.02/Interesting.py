@@ -25,7 +25,7 @@
 # num = []
 # num = [i+10  if i % 2 == 0 else i ** 3 for i in range(26)]
 # print(num)
-
+#
 
 # num = {i: i ** 3 for i in range(26)}
 # print(num)
@@ -35,8 +35,8 @@
 # print(num)
 
 
-# num = {k: v ** 3 for k in "ALJLFHBL" for v in range(1, 11)}
-# print(num)
+num = {k: v ** 3 for k in "ALJLFHBL" for v in range(1, 11)}
+print(num)
 
 # num = {}
 # for k in "ALJLFHBL":
@@ -44,5 +44,10 @@
 #         num[k] = v ** 3
 # print(num)
 
-num = {k: v ** 3 for k, v in zip("ASDFGHJK", range(1, 11))}
+num = {k: v ** 3 for k, v in zip("ASDFGHJ", range(1, 11))}
+print(num)
+
+
+
+num = {k: v ** 3 for k, v in zip("ALJFHB", range(1, 11))}
 print(num)
